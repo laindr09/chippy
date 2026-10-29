@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chippy’s Brew</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a class="logo" href="#home">Chippy’s Brew</a>
+  <ul>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#story">Our story</a></li>
+    <li><a href="#visit">Visit</a></li>
+  </ul>
+</nav>
+
+<section id="home" data-bg="#2a1c13" data-fg="#f1e8d6">
+  <h1>Chippy’s <em>Brew</em></h1>
+  <p>Slow-poured coffee, warm pastries, and a corner table that’s always yours.</p>
+  <a class="btn" href="#menu">See the menu</a>
+  <svg class="cup" viewBox="0 0 200 200" aria-hidden="true">
+    <g class="steam"><path d="M70 60c-10-12 10-18 0-30"/><path d="M100 60c-10-12 10-18 0-30"/><path d="M130 60c-10-12 10-18 0-30"/></g>
+    <path d="M40 80h120v40a50 50 0 0 1-50 50h-20a50 50 0 0 1-50-50z" fill="#b07a4f"/>
+    <path d="M160 92h14a20 20 0 0 1 0 40h-18" fill="none" stroke="#b07a4f" stroke-width="10"/>
+    <ellipse cx="100" cy="82" rx="60" ry="8" fill="#5e3b24"/>
+    <rect x="45" y="182" width="110" height="8" rx="4" fill="#e4d3b5"/>
+  </svg>
+</section>
+
+<div class="marquee" aria-hidden="true"><div class="track">
+  <span>Freshly roasted</span><span>Brewed slow</span><span>Baked every morning</span><span>Stay a while</span>
+  <span>Freshly roasted</span><span>Brewed slow</span><span>Baked every morning</span><span>Stay a while</span>
+</div></div>
+
+<section id="menu" data-bg="#e4d3b5" data-fg="#2a1c13">
+  <h2>What we’re pouring</h2>
+  <div class="menu">
+    <div>
+      <h3>Coffee</h3>
+      <div class="item"><div><b>Chippy’s House Brew</b><small>Our signature medium roast, bold and smooth</small></div><span class="price">₱120</span></div>
+      <div class="item"><div><b>Caramel Macchiato</b><small>Espresso, steamed milk, buttery caramel</small></div><span class="price">₱150</span></div>
+      <div class="item"><div><b>Spanish Latte</b><small>Sweet condensed milk, double shot</small></div><span class="price">₱155</span></div>
+      <div class="item"><div><b>Cold Brew</b><small>Steeped 18 hours, served over ice</small></div><span class="price">₱140</span></div>
+    </div>
+    <div>
+      <h3>Not coffee</h3>
+      <div class="item"><div><b>Matcha Latte</b><small>Ceremonial-grade, lightly sweet</small></div><span class="price">₱160</span></div>
+      <div class="item"><div><b>Hot Chocolate</b><small>Dark cocoa, thick and rich</small></div><span class="price">₱130</span></div>
+      <h3>Bakes</h3>
+      <div class="item"><div><b>Butter Croissant</b><small>Flaky, golden, baked daily</small></div><span class="price">₱95</span></div>
+      <div class="item"><div><b>Chocolate Chip Cookie</b><small>Crisp edges, soft middle</small></div><span class="price">₱75</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="marquee alt" aria-hidden="true"><div class="track">
+  <span>Good beans</span><span>Good people</span><span>Good mornings</span><span>Chippy’s Brew</span>
+  <span>Good beans</span><span>Good people</span><span>Good mornings</span><span>Chippy’s Brew</span>
+</div></div>
+
+<section id="story" data-bg="#4b5a3a" data-fg="#f1e8d6">
+  <h2>Grown slow, poured with care</h2>
+  <div class="story">
+    <div>
+      <p>Chippy’s Brew started with a simple idea: a coffee shop should feel like a favorite chair. Warm wood, soft light, and a cup made the way you like it.</p>
+      <p>We pick our beans carefully, roast in small batches, and bake fresh every morning, so every visit tastes like the first one.</p>
+    </div>
+    <div class="facts">
+      <div class="fact"><strong>Small-batch roasts</strong>Fresh beans, never rushed.</div>
+      <div class="fact"><strong>Baked daily</strong>Pastries out of the oven by morning.</div>
+      <div class="fact"><strong>Cozy corners</strong>Study, chat, or just sit and sip.</div>
+    </div>
+  </div>
+</section>
+
+<section id="visit" data-bg="#5e3b24" data-fg="#f1e8d6">
+  <h2>Come say hi</h2>
+  <div class="visit">
+    <div>
+      <h3>Hours</h3>
+      <ul>
+        <li><span>Mon – Fri</span><span>7:00 AM – 9:00 PM</span></li>
+        <li><span>Sat – Sun</span><span>8:00 AM – 10:00 PM</span></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Find us</h3>
+      <p>Your street address here<br>Your city, Philippines</p>
+    </div>
+    <div>
+      <h3>Reach out</h3>
+      <p>hello@chippysbrew.com<br>@chippysbrew</p>
+    </div>
+  </div>
+</section>
+
+<footer>© <span id="yr">2026</span> Chippy’s Brew. Made with love and a lot of coffee.</footer>
+
+<script>
+  // Background and text color shift as each section scrolls into view
+  const body = document.body;
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        body.style.setProperty('--bg', e.target.dataset.bg);
+        body.style.setProperty('--fg', e.target.dataset.fg);
+      }
+    });
+  }, { threshold: 0.45 });
+  document.querySelectorAll('section[data-bg]').forEach(s => io.observe(s));
+  document.getElementById('yr').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
